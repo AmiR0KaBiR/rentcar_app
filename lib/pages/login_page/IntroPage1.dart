@@ -34,12 +34,12 @@ class CarSelectionScreen extends StatefulWidget {
 
 class _CarSelectionScreenState extends State<CarSelectionScreen> {
   final List<CarBrand> carBrands = [
-    CarBrand(name: 'تسلا', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
-    CarBrand(name: 'مرسدس', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
-    CarBrand(name: 'فراری', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
-    CarBrand(name: 'بوگاتی', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
-    CarBrand(name: 'بی‌ام‌و', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
-    CarBrand(name: 'لامبورگینی', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
+    CarBrand(name: 'تسلا', imagePath: 'assets/mercedes-benz-logo-png-2.webp'),
+    CarBrand(name: 'مرسدس', imagePath: 'assets/mercedes-benz-logo-png-2.webp'),
+    CarBrand(name: 'فراری', imagePath: 'assets/bugatti-eb-logo-png-transparent.webp'),
+    CarBrand(name: 'بوگاتی', imagePath: 'assets/bugatti-eb-logo-png-transparent.webp'),
+    CarBrand(name: 'بی‌ام‌و', imagePath: 'assets/mercedes-benz-logo-png-2.webp'),
+    CarBrand(name: 'لامبورگینی', imagePath: 'assets/bugatti-eb-logo-png-transparent.webp'),
   ];
 
   final List<int> selectedIndices = [];

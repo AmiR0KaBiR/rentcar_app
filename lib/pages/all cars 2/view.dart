@@ -90,7 +90,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
                     '1600 اسب بخار',
                     'اتوماتیک',
                     '۱,۱۰,۰۰۰\$',
-                    'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png',
+                    'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.webp',
                     5.0,
                   ),
                   carCard(
@@ -98,7 +98,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
                     '1200 اسب بخار',
                     'اتوماتیک',
                     '۵۰,۰۰۰\$',
-                    'assets/porche.jpg',
+                    'assets/porche.webp',
                     4.9,
                   ),
                   carCard(
@@ -106,7 +106,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
                     '1100 اسب بخار',
                     'اتوماتیک',
                     '۸۵,۰۰۰\$',
-                    'assets/e40d7b71e1bed86b6f72ac1009b36ecb.jpg',
+                    'assets/e40d7b71e1bed86b6f72ac1009b36ecb.webp',
                     5.0,
                   ),
                 ],

@@ -24,7 +24,7 @@ class CarDetailsPage extends StatelessWidget {
           children: [
             Center(
               child: Image.asset(
-                'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png',
+                'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.webp',
                 height: 200,
               ),
             ),

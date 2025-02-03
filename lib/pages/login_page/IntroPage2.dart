@@ -18,7 +18,7 @@ class CarRentalHomePage extends StatefulWidget {
 class _CarRentalHomePageState extends State<CarRentalHomePage> {
   final List<Car> cars = [
     Car(
-      image: 'assets/porche.jpg',
+      image: 'assets/porche.webp',
       name: 'Mercedes SLK Class',
       horsepower: '1100 hp',
       price: '\$85,000',
@@ -26,7 +26,7 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
       transmissionType: 'Automatic',
     ),
     Car(
-      image: 'assets/e40d7b71e1bed86b6f72ac1009b36ecb.jpg',
+      image: 'assets/e40d7b71e1bed86b6f72ac1009b36ecb.webp',
       name: 'Porches Panemera',
       horsepower: '1600 hp',
       price: '\$90,000',
@@ -34,7 +34,7 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
       transmissionType: 'Manual',
     ),
     Car(
-      image: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png',
+      image: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.webp',
       name: 'BMW i8',
       horsepower: '1200 hp',
       price: '\$75,000',
