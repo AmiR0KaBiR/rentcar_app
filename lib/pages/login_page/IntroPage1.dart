@@ -34,12 +34,12 @@ class CarSelectionScreen extends StatefulWidget {
 
 class _CarSelectionScreenState extends State<CarSelectionScreen> {
   final List<CarBrand> carBrands = [
-    CarBrand(name: 'تسلا', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
-    CarBrand(name: 'مرسدس', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
-    CarBrand(name: 'فراری', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
-    CarBrand(name: 'بوگاتی', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
-    CarBrand(name: 'بی‌ام‌و', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
-    CarBrand(name: 'لامبورگینی', imagePath: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png'),
+    CarBrand(name: 'تسلا', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
+    CarBrand(name: 'مرسدس', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
+    CarBrand(name: 'فراری', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
+    CarBrand(name: 'بوگاتی', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
+    CarBrand(name: 'بی‌ام‌و', imagePath: 'assets/mercedes-benz-logo-png-2.png'),
+    CarBrand(name: 'لامبورگینی', imagePath: 'assets/bugatti-eb-logo-png-transparent.png'),
   ];
 
   final List<int> selectedIndices = [];
@@ -152,8 +152,9 @@ class _CarSelectionScreenState extends State<CarSelectionScreen> {
             Center(
               child: LoginButton(
                 label: "اتمام",
-                onPressed: () => Get.to(MainPage()),
-              ),
+                onPressed: () =>  Get.to(() =>  MainPage(), transition: Transition.fade , duration: const Duration(milliseconds: 500)),
+
+    ),
             ),
           ],
         ),

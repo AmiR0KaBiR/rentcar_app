@@ -46,8 +46,7 @@ class SearchPage extends StatelessWidget {
                   // دکمه خانه
                   ElevatedButton(
                     onPressed: () {
-                      // انتقال به صفحه AllCars2Page با ترنزیشن فید
-                      Get.to(() => const AllCars2Page(), transition: Transition.fadeIn, duration: const Duration(milliseconds: 500));
+
                     },
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(16),

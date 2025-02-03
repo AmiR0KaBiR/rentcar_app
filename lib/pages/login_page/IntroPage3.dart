@@ -131,8 +131,9 @@ class LoginPage2 extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                         recognizer: TapGestureRecognizer()
                           ..onTap = () {
-                          Get.to(LoginPage()
-                            );
+                           Get.to(() =>  LoginPage(), transition: Transition.cupertinoDialog, duration: const Duration(milliseconds: 500));
+
+
                           },
                       ),
                     ],

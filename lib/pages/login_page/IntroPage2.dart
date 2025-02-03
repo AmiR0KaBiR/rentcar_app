@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+import 'package:lms_appf/pages/about/view.dart';
 import 'package:lms_appf/pages/all%20cars%202/view.dart';
 import 'package:lms_appf/pages/all%20cars/view.dart';
 
@@ -17,7 +18,7 @@ class CarRentalHomePage extends StatefulWidget {
 class _CarRentalHomePageState extends State<CarRentalHomePage> {
   final List<Car> cars = [
     Car(
-      image: 'assets/carad1.webp',
+      image: 'assets/porche.jpg',
       name: 'Mercedes SLK Class',
       horsepower: '1100 hp',
       price: '\$85,000',
@@ -25,7 +26,7 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
       transmissionType: 'Automatic',
     ),
     Car(
-      image: 'assets/carad2.webp',
+      image: 'assets/e40d7b71e1bed86b6f72ac1009b36ecb.jpg',
       name: 'Porches Panemera',
       horsepower: '1600 hp',
       price: '\$90,000',
@@ -33,7 +34,7 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
       transmissionType: 'Manual',
     ),
     Car(
-      image: 'assets/carad3.webp',
+      image: 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png',
       name: 'BMW i8',
       horsepower: '1200 hp',
       price: '\$75,000',
@@ -82,12 +83,16 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 18),
-            child: Container(
-              width: 42,
-              height: 42,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.lightGreenAccent,
+            child: InkWell(
+              onTap : () =>  Get.to(() =>  AboutUs(), transition: Transition.cupertino, duration: const Duration(milliseconds: 500)),
+              child: Container(
+                child: Icon(Icons.person),
+                width: 42,
+                height: 42,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12),
+                  color: Colors.lightGreenAccent,
+                ),
               ),
             ),
           ),
@@ -228,7 +233,7 @@ class _CarRentalHomePageState extends State<CarRentalHomePage> {
 
   Widget buildCarCard(Car car) {
     return InkWell(
-      onTap: () => Get.to(AllCarsPage()),
+      onTap: () =>    Get.to(() => const AllCarsPage(), transition: Transition.cupertino, duration: const Duration(milliseconds: 500)),
       child: Card(
         margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),

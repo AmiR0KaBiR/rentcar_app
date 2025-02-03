@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:lms_appf/pages/all%20cars/view.dart';
 
 import '../bookdetails/view.dart';
 
@@ -99,7 +98,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
                     '1200 اسب بخار',
                     'اتوماتیک',
                     '۵۰,۰۰۰\$',
-                    'assets/carad4.webp',
+                    'assets/porche.jpg',
                     4.9,
                   ),
                   carCard(
@@ -107,7 +106,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
                     '1100 اسب بخار',
                     'اتوماتیک',
                     '۸۵,۰۰۰\$',
-                    'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png',
+                    'assets/e40d7b71e1bed86b6f72ac1009b36ecb.jpg',
                     5.0,
                   ),
                 ],
@@ -269,7 +268,7 @@ class _AllCars2PageState extends State<AllCars2Page> {
 
   Widget carCard(String name, String power, String transmission, String price, String imagePath, double rating) {
     return InkWell(
-      onTap: () => Get.to(CarDetailsPage()),
+      onTap: () =>    Get.to(() =>  CarDetailsPage(), transition: Transition.fadeIn, duration: const Duration(milliseconds: 500)),
       child: Card(
         
         margin: const EdgeInsets.only(bottom: 16),

@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:lms_appf/core/bottomnavbar.dart';
-import 'package:lms_appf/pages/all%20cars%202/view.dart';
-import 'package:lms_appf/pages/all%20cars/view.dart';
-import 'package:lms_appf/pages/home/view.dart';
-import 'package:lms_appf/pages/profile/view.dart';
-import 'package:lms_appf/pages/search/view.dart';
-import 'package:lms_appf/pages/test/test.dart';
 
-import '../login_page/IntroPage2.dart';
+
+
 import '../login_page/IntroPage3.dart';
-import '../login_page/IntroPage4.dart';
+
 
 class PageViewExample extends StatefulWidget {
   @override
@@ -84,7 +78,8 @@ class _PageViewExampleState extends State<PageViewExample> {
                   text:
                       _currentPage == _pages.length - 1 ? "شروع کنید" : "بعدی",
                   onPressed: () {
-                    Get.to(LoginPage2());
+                   Get.to(() =>  LoginPage2(), transition: Transition.cupertino, duration: const Duration(milliseconds: 500));
+
                     if (_currentPage < _pages.length - 1) {
                       _pageController.nextPage(
                         duration: Duration(milliseconds: 300),

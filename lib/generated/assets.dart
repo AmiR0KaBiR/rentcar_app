@@ -4,10 +4,12 @@ class Assets {
 
   static const String animationProfile = 'assets/Animation/profile.svg';
   static const String animationWelcome = 'assets/Animation/welcome.json';
+  static const String assets04f60cae46243141ec0cf834ac12c8e4 = 'assets/04f60cae46243141ec0cf834ac12c8e4.jpg';
   static const String assets2024KiaEV90042800p = 'assets/2024-Kia-EV9-004-2800p.webp';
   static const String assets2025Porsche911GT3RSWithMantheyKit0052800p = 'assets/2025-Porsche-911-GT3-RS-with-Manthey-Kit-005-2800p.webp';
   static const String assets4864862054LookingForAnExoticCarExoticCarTransparent = 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png';
   static const String assetsAnimationlogo = 'assets/animationlogo.json';
+  static const String assetsBugattiEbLogoPngTransparent = 'assets/bugatti-eb-logo-png-transparent.png';
   static const String assetsCar = 'assets/car.gif';
   static const String assetsCar1 = 'assets/car1.webp';
   static const String assetsCar2 = 'assets/car2.webp';
@@ -17,10 +19,13 @@ class Assets {
   static const String assetsCarad3 = 'assets/carad3.webp';
   static const String assetsCarad4 = 'assets/carad4.webp';
   static const String assetsDODGE = 'assets/DODGE.jpg';
+  static const String assetsE40d7b71e1bed86b6f72ac1009b36ecb = 'assets/e40d7b71e1bed86b6f72ac1009b36ecb.jpg';
   static const String assetsFordgt = 'assets/fordgt.jpg';
   static const String assetsIcLauncher = 'assets/ic_launcher.png';
   static const String assetsLambo = 'assets/lambo.jpg';
   static const String assetsMercedesBenzLogoPng2 = 'assets/mercedes-benz-logo-png-2.png';
+  static const String assetsMvm = 'assets/mvm.svg';
+  static const String assetsPorche = 'assets/porche.jpg';
   static const String assetsProfile = 'assets/Profile.webp';
   static const String assetsRentlogo = 'assets/rentlogo.svg';
   static const String assetsRentlogoGreenCorrected = 'assets/rentlogo_green_corrected.png';
