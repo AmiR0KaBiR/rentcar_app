@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-
 import '../pages/splash/view.dart';
 import '../routes/routes.dart';
 import '../theme/theme.dart';
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: Routes.splashpage,
       debugShowCheckedModeBanner: false,
       home: SplashPage(),
-      theme: AppTheme().lightTheme(),
+      theme: ThemeData(fontFamily: 'Vazir'),
 
     );
   }

@@ -10,7 +10,7 @@ class SplashLogic extends GetxController {
 
   Future GoToIntroPage() async {
     await Future.delayed(const Duration(seconds: 3)).whenComplete(() {
-      Get.offAllNamed(Routes.testpage);
+      Get.offAllNamed(Routes.intropage);
     });
   }
 }

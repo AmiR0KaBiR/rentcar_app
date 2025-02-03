@@ -4,8 +4,34 @@ class Assets {
 
   static const String animationProfile = 'assets/Animation/profile.svg';
   static const String animationWelcome = 'assets/Animation/welcome.json';
+  static const String assets2024KiaEV90042800p = 'assets/2024-Kia-EV9-004-2800p.webp';
+  static const String assets2025Porsche911GT3RSWithMantheyKit0052800p = 'assets/2025-Porsche-911-GT3-RS-with-Manthey-Kit-005-2800p.webp';
+  static const String assets4864862054LookingForAnExoticCarExoticCarTransparent = 'assets/486-4862054_looking-for-an-exotic-car-exotic-car-transparent.png';
   static const String assetsAnimationlogo = 'assets/animationlogo.json';
   static const String assetsCar = 'assets/car.gif';
+  static const String assetsCar1 = 'assets/car1.webp';
+  static const String assetsCar2 = 'assets/car2.webp';
+  static const String assetsCar3 = 'assets/car3.webp';
+  static const String assetsCarad1 = 'assets/carad1.webp';
+  static const String assetsCarad2 = 'assets/carad2.webp';
+  static const String assetsCarad3 = 'assets/carad3.webp';
+  static const String assetsCarad4 = 'assets/carad4.webp';
+  static const String assetsDODGE = 'assets/DODGE.jpg';
+  static const String assetsFordgt = 'assets/fordgt.jpg';
+  static const String assetsIcLauncher = 'assets/ic_launcher.png';
+  static const String assetsLambo = 'assets/lambo.jpg';
+  static const String assetsMercedesBenzLogoPng2 = 'assets/mercedes-benz-logo-png-2.png';
+  static const String assetsProfile = 'assets/Profile.webp';
   static const String assetsRentlogo = 'assets/rentlogo.svg';
+  static const String assetsRentlogoGreenCorrected = 'assets/rentlogo_green_corrected.png';
+  static const String assetsRollsroys = 'assets/rollsroys.jpg';
+  static const String assetsSpeechBubble5053812 = 'assets/speech-bubble_5053812.png';
+  static const String assetsWallpapertest = 'assets/wallpapertest.webp';
+  static const String fontVazirmatnBold = 'assets/font/Vazirmatn-Bold.ttf';
+  static const String fontVazirmatnExtraBold = 'assets/font/Vazirmatn-ExtraBold.ttf';
+  static const String fontVazirmatnLight = 'assets/font/Vazirmatn-Light.ttf';
+  static const String fontVazirmatnMedium = 'assets/font/Vazirmatn-Medium.ttf';
+  static const String fontVazirmatnRegular = 'assets/font/Vazirmatn-Regular.ttf';
+  static const String fontVazirmatnSemiBold = 'assets/font/Vazirmatn-SemiBold.ttf';
 
 }
